@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yangzhenning.github.io">
-  <title>Hello World | morphling的博客</title>
+  <title>morphling的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="汇编基础知识(一)(1)汇编语言的产生由于计算机只识别机器指令(0,1)。早期程序员很快发现使用机器语言来编程导致效率低下难懂，于是汇编语言产生了。 (2)基础知识小结1：汇编指令是机器指令的助记符，同机器指令是一一对应的。2：每一种CPU都有自己的CPU指令集3：CPU可以直接使用的信息存储在存储器中(内存)4：对于存储器（内存）角度来说，指令和数据没有任何区别，都是二进制数据5：存储单元是从0">
 <meta name="keywords" content="啥都感兴趣">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yangzhenning.github.io/2017/09/06/hello-world/index.html">
+<meta property="og:title" content="morphling的博客">
+<meta property="og:url" content="http://yangzhenning.github.io/2017/09/14/assembly(1)/index.html">
 <meta property="og:site_name" content="morphling的博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="汇编基础知识(一)(1)汇编语言的产生由于计算机只识别机器指令(0,1)。早期程序员很快发现使用机器语言来编程导致效率低下难懂，于是汇编语言产生了。 (2)基础知识小结1：汇编指令是机器指令的助记符，同机器指令是一一对应的。2：每一种CPU都有自己的CPU指令集3：CPU可以直接使用的信息存储在存储器中(内存)4：对于存储器（内存）角度来说，指令和数据没有任何区别，都是二进制数据5：存储单元是从0">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-06T09:18:58.672Z">
+<meta property="og:updated_time" content="2017-09-14T02:55:20.293Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="morphling的博客">
+<meta name="twitter:description" content="汇编基础知识(一)(1)汇编语言的产生由于计算机只识别机器指令(0,1)。早期程序员很快发现使用机器语言来编程导致效率低下难懂，于是汇编语言产生了。 (2)基础知识小结1：汇编指令是机器指令的助记符，同机器指令是一一对应的。2：每一种CPU都有自己的CPU指令集3：CPU可以直接使用的信息存储在存储器中(内存)4：对于存储器（内存）角度来说，指令和数据没有任何区别，都是二进制数据5：存储单元是从0">
   
     <link rel="alternative" href="/atom.xml" title="morphling的博客" type="application/atom+xml">
   
@@ -141,35 +141,13 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-assembly(1)" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Hello World
-    </h1>
-  
-
-        
-        <a href="/2017/09/06/hello-world/" class="archive-article-date">
-  	<time datetime="2017-09-06T03:29:46.451Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-06</time>
-</a>
-        
-      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <h2 id="汇编基础知识-一"><a href="#汇编基础知识-一" class="headerlink" title="汇编基础知识(一)"></a>汇编基础知识(一)</h2><p>(1)汇编语言的产生<br>由于计算机只识别机器指令(0,1)。早期程序员很快发现使用机器语言来编程导致效率低下难懂，于是汇编语言产生了。</p>
+<p>(2)基础知识小结<br>1：汇编指令是机器指令的助记符，同机器指令是一一对应的。<br>2：每一种CPU都有自己的CPU指令集<br>3：CPU可以直接使用的信息存储在存储器中(内存)<br>4：对于存储器（内存）角度来说，指令和数据没有任何区别，都是二进制数据<br>5：存储单元是从0开始顺序编号<br>6：一个存储单元可以存8个字节（8 bit），即8位二进制数。<br>7：每一个CPU都有许多管脚，这些管脚和总线相连。及管脚引出总线。<br>8：一个CPU可以引出3种总线的宽度来标志这个CPU的不同性能，即：总线宽度越宽，性能则越好，反之则越差。<br>9：CPU总线有：地址总线，数据总线，控制总线<br>10<br>1)地址总线的宽度决定了CPU的寻址能力（越宽找的越快。找存储单元速度）；<br>2)数据总线的宽度决定了CPU与其他器件进行数据传输时的一次传输量（越宽传的数据越多）<br>3)控制总线的宽度决定了CPU对系统其他器件的控制能力。<br>11：1Byte=8bit 1KB=1024B 1MB=1024KB 1GB=1024MB<br>12<br>问：一个CPU的寻址能力为8KB,那么他的地址总线宽度为多少？<br>答：<br>8KB=1024*8=8192bit<br>2^13=8192<br>他的总线宽度为13。</p>
 
       
 
@@ -249,7 +227,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yangzhenning.github.io/2017/09/06/hello-world/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yangzhenning.github.io/2017/09/14/assembly(1)/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -263,15 +241,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2017/09/06/test/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
   
+    <a href="/2017/09/06/test/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
